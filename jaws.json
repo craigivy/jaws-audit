@@ -1,0 +1,19 @@
+{
+  "name": "audit",
+  "version": "0.0.1",
+  "location": "https://github.com/...",
+  "author": "",
+  "description": "",
+  "domain": "audit.com",
+  "stages": {
+    "dev": [
+      {
+        "region": "us-west-2",
+        "iamRoleArnLambda": "arn:aws:iam::579557122371:role/dev-audit-r-IamRoleLambda-1HBBT15LCP7C4",
+        "iamRoleArnApiGateway": "arn:aws:iam::579557122371:role/dev-audit-r-IamRoleApiGateway-3QTRYZE59FFJ",
+        "jawsBucket": "jaws.dev.uswest2.audit.com",
+        "restApiId": "tj17knkr7j"
+      }
+    ]
+  }
+}
